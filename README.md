@@ -12,7 +12,7 @@
 # Participantes
 
 | Participante   | Proyecto |
-| ------------- | 
+| ------------- | ------------- | 
 | [Hernan Rajchert (mentor)](https://github.com/circulo-aprendizaje/organizacion/blob/master/mensajes/hernan_rajchert.md) | - |  
 | [Alan Campora](https://github.com/circulo-aprendizaje/organizacion/blob/master/mensajes/alancampora.md)  | |
 | [Claudio Zurita](https://github.com/circulo-aprendizaje/organizacion/blob/master/mensajes/claudio_zurita.md)   | |
