@@ -16,7 +16,6 @@
 | [Hernan Rajchert (mentor)](https://github.com/circulo-aprendizaje/organizacion/blob/master/mensajes/hernan_rajchert.md) |  
 | [Alan Campora](https://github.com/circulo-aprendizaje/organizacion/blob/master/mensajes/alancampora.md)  |
 | [Claudio Zurita](https://github.com/circulo-aprendizaje/organizacion/blob/master/mensajes/claudio_zurita.md)   |
-| [Diego Calderón](https://github.com/circulo-aprendizaje/organizacion/blob/master/mensajes/diego_calderon.md) |
 | [Esteban Yañez](https://github.com/circulo-aprendizaje/organizacion/blob/master/mensajes/teban.md) |
 | [Florencia Azd](https://github.com/circulo-aprendizaje/organizacion/blob/master/mensajes/florencia-azd.md) | 
 | [Norman Perrin](https://github.com/circulo-aprendizaje/organizacion/blob/master/mensajes/norman_perrin.md) | 
