@@ -1,4 +1,4 @@
-# fp-ts
+# TypeScript y Programación Funcional
 [Circulo de aprendizaje](https://raw.githubusercontent.com/circulo-aprendizaje/organizacion) sobre TypeScript y Programación funcional
 
 # Agenda
