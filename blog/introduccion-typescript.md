@@ -1,29 +1,23 @@
 # Introduccion a TypeScript
-Si bien sabemos que *[todo el software esta roto](https://www.youtube.com/watch?v=0riSpvps4mA)*, podemos utilizar herramientas que nos permitan reducir los errores que podamos cometer a la hora de programar. A lo largo de este post vamos a ver como TypeScript es una de las herramientas que nos puede ayudar a escribir codigo "menos roto" en JavaScript. 
+Si bien sabemos que *[todo el software esta roto](https://www.youtube.com/watch?v=0riSpvps4mA)*, podemos utilizar herramientas que nos permitan reducir los errores que podamos cometer a la hora de programar. A lo largo de este post vamos a ver como TypeScript es una herramienta que nos puede ayudar a escribir código "menos roto" en JavaScript. 
 
-> Este post es resultado de lo visto durante la primera sesión del "círculo de aprendizaje" de TypeScript + Programación funcional
+> Este post es resultado de lo visto durante la primera sesión del ["círculo de aprendizaje"](https://github.com/circulo-aprendizaje/organizacion) de [TypeScript + Programación funcional](https://github.com/circulo-aprendizaje/fp-ts) cuyo video puede encontrarse en [Youtube](https://www.youtube.com/watch?v=SYybejXWP7Q)
 
 ## Que es TypeScript?
-Typescript es un lenguaje que compila a vanilla JavaScript. Algunos lenguajes como [CoffeScript](http://coffeescript.org/) o [Dart](https://www.dartlang.org/) , si bien también compilan a JavaScript se los puede ver como lenguajes distinos a éste. En cambio, podemos considerar a TypeScript como un **super-conjunto** de JavaScript, ya que **extiende** su funcionlidad.
+TypeScript es un lenguaje que compila a JavaScript. Otros lenguajes como [CoffeScript](http://coffeescript.org/) o [Dart](https://www.dartlang.org/) también lo hacen, pero a diferencia de estos, TypeScript se puede considerar como una **extensión del lenguaje** más que un lenguaje nuevo. De la misma manera que podemos considerar que ES6 es una extensión de ES5.
 
 Vamos a tratar de aclarar la definición anterior con la siguiente imagen:
 
 ![conjuntos](https://image.ibb.co/gq2jhm/Intro_Ts_Image.png)
 
 
-Vemos como TypeScript contiene a es6 y es5. Esto quiere decir que cualquier funcionalidad que desarollemos en es6/es5 será un código de TypeScript válido, porque es *compatible hacia atrás* con dichas versiones de JavaScript. 
+Vemos como TypeScript contiene a ES6 y ES5. Esto quiere decir que cualquier funcionalidad que desarollemos en ES6/ES5 será un código de TypeScript válido, porque es *compatible hacia atrás* con dichas versiones. 
 
 ## Transpiladores
-Como vemos en la imagen anterior, también podemos notar que es6 extiende la funcionaliad de es5, agregando sintaxis nueva (como clases, arrow functions, generators, async/await, destructuring). Lamentablemente, todas estas nuevas funcionalidades no están disponibles en todos los browsers/motores de node que utilizamos y tendremos que esperar algun tiempo para que así sea. Es por esto que existen los transpiladores, como [babel](https://github.com/babel/babel), que permiten que nos olvidemos de este problema. Así es que podemos escribir en la última version de ECMAScript y posteriormente en una etapa de compilación, el transpilador será el encargado de hacer la conversion a la versión que sea necesaria.
+El lenguaje JavaScript evoluciona para satifacer a las necesidades de los desarrolladores, pero las últimas versiones del estandar no siempre están implementadas en los navegadores o en Node. Es por eso que si queremos usar los últimos features debemos utilizar un transpilador (como [babel](https://github.com/babel/babel)) en una etapa de compilación para convertir nuestro código en algo que funcione en los distintos entornos.
 
-Y qué tiene que ver todo esto con TypeScript? Al ser compatible con es6, como mínimo ya podríamos utilizarlo como un transpilador. La ventaja que posee sobre otros transpiladores, es que TypeScript toma una postura más conservadora. Sólo estarán disponibles features que estén en una etapa avanzada de aprobación, con lo cual es muy factible que lleguen al estándar.
+Y qué tiene que ver todo esto con TypeScript? Al ser compatible con ES6, como mínimo se podría utilizarlo como un transpilador. La ventaja que posee sobre otros transpiladores, es que TypeScript toma una postura más conservadora. Sólo estarán disponibles features que estén en una etapa avanzada de aprobación, con lo cual es muy factible que lleguen al estándar.
 
-Listado de features disponibles: 
-
-* [arrow functions](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Funciones/Arrow_functions)!
-* [Let](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Sentencias/let) y [const](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Sentencias/const)
-* [Destructuring](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Operadores/Destructuring_assignment)
-* [Clases](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Classes)
 
 ## Entonces.. cuál es el valor agregado de TypeScript?
 Ya entendimos que una de sus funcionalidades es actuar como un transpilador, pero si sólo hiciera eso, podríamos seguir utilizando babel. 
@@ -225,7 +219,7 @@ Cabe destacar que dentro de getUser, TypeScript puede **inferir** automaticament
 
 
 ## Conclusiones 
-A lo largo de este post pudimos ver como TypeScript puede ayudarnos a crear aplicaciones menos rotas mediante el uso de tipos explícitos, algunas reestricciones en el uso de clases, tipados de funciones y el uso de interfaces. Además nos ahorra el uso de babel ya que por ser compatible con es6/5, funciona como un transpilador. Vimos también, como podemos transmitir mejor nuestros contratos y hacer que el código quede auto-documentado.
+A lo largo de este post pudimos ver como TypeScript puede ayudarnos a crear aplicaciones menos rotas mediante el uso de tipos explícitos, algunas reestricciones en el uso de clases, tipados de funciones y el uso de interfaces. Además nos ahorra el uso de babel ya que por ser compatible con ES6/ES5, funciona como un transpilador. Vimos también, como podemos transmitir mejor nuestros contratos y hacer que el código quede auto-documentado.
 
 Si quieren más info sobre TypeScript entren [aquí](http://www.typescriptlang.org/) (en inglés) y además pueden ver la sesión entera del círculo mediante este [link](https://www.youtube.com/watch?v=SYybejXWP7Q). 
 
