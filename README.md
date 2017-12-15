@@ -8,7 +8,8 @@
 | 16 Nov '17 | Introducción a TypeScript | <ul><li>[video](https://www.youtube.com/watch?v=SYybejXWP7Q)</li><li>presentación (TODO)</li></ul> |
 | 23 Nov '17 | Introduccíon a FP | <ul><li>[video](https://www.youtube.com/watch?v=Iwd4JLSk1d4)</li><li>presentación (TODO)</li></ul>|
 | 30 Nov '17 | TypeScript en Node y mentoría de proyectos | [Video](https://www.youtube.com/watch?v=eKUf0ZL4eME) |
-| 07 Dic '17 | Nuevas opciones de strict | |
+| 07 Dic '17 | Introducción a la Programación Abstracta | [video](https://www.youtube.com/watch?v=NjPTbdW81BA) |
+| 15 Dic '17 | Decorators y Annotations | <ul><li>[video](https://www.youtube.com/watch?v=251TmCFY8iI)</li><li>[presentación](https://slides.com/teban3010/typescript-annotations/fullscreen#/)</li></ul> |
 
 # Participantes
 
