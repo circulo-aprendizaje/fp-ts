@@ -19,5 +19,5 @@
 | [Alan Campora](https://github.com/circulo-aprendizaje/organizacion/blob/master/mensajes/alancampora.md)  | [Cli: How to use](https://github.com/alancampora/how-to-use)|
 | [Claudio Zurita](https://github.com/circulo-aprendizaje/organizacion/blob/master/mensajes/claudio_zurita.md)   | Google Sheet: Calculadora de plazo fijo |
 | [Esteban Yañez](https://github.com/circulo-aprendizaje/organizacion/blob/master/mensajes/teban.md) | Cli: sorteos meetup |
-| [Norman Perrin](https://github.com/circulo-aprendizaje/organizacion/blob/master/mensajes/norman_perrin.md) | |
+| [Norman Perrin](https://github.com/circulo-aprendizaje/organizacion/blob/master/mensajes/norman_perrin.md) | [Plataforma: Centralizar ofertas empresas](https://github.com/NormanPerrin/OfertasEmpresas) |
 | [Pablo Mescher](https://github.com/circulo-aprendizaje/organizacion/blob/master/mensajes/pablo_mescher.md) | Cli: Poker funcional|
